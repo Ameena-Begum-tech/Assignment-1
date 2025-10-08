@@ -1,0 +1,38 @@
+body {
+  background-color: #f8f9fa;
+  font-family: "Poppins", sans-serif;
+}
+
+.sidebar {
+  background-color: #fff;
+  height: 100vh;
+  border-right: 1px solid #ddd;
+}
+
+.list-group-item {
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.list-group-item.active {
+  background-color: #00a82d;
+  color: white;
+  border-radius: 8px;
+}
+
+.product-card {
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.product-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.btn-outline-success {
+  border-radius: 8px;
+}

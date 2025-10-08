@@ -1,0 +1,25 @@
+/* Full background with 4 image grid look */
+.bg-images {
+  background-image: url("background-image.png");
+  background-size: cover;
+  height: 100vh;
+}
+.logo {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.login-container {
+  width: 40vw;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.input-element-text {
+  background-color: #f0f0f0;
+}
+
+.btn-success {
+  background-color: #218838;
+}
